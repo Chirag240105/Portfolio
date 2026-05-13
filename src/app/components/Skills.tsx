@@ -33,7 +33,7 @@ const skillCategories = [
   {
     title: "Database",
     icon: <Database className="w-5 h-5 text-blue-400" />,
-    skills: ["MongoDB"],
+    skills: ["MongoDB", "Redis", "PostgreSQL", "Prisma"],
     color: "from-blue-500/15 to-blue-600/5",
     border: "border-blue-500/25",
     glow: "group-hover:shadow-[0_0_30px_rgba(59,130,246,0.15)]",
@@ -41,7 +41,7 @@ const skillCategories = [
   {
     title: "AI & Tools",
     icon: <Sparkles className="w-5 h-5 text-green-400" />,
-    skills: ["OpenRouter API", "LLaMA 4", "Git", "GitHub", "Postman", "Figma"],
+    skills: ["OpenRouter API", "LLaMA 4", "Git", "GitHub", "Postman", "Figma", "NumPy", "Pandas"],
     color: "from-green-500/15 to-green-600/5",
     border: "border-green-500/25",
     glow: "group-hover:shadow-[0_0_30px_rgba(34,197,94,0.15)]",
@@ -49,7 +49,7 @@ const skillCategories = [
   {
     title: "Deployment",
     icon: <Code2 className="w-5 h-5 text-orange-400" />,
-    skills: ["Render", "Vercel"],
+    skills: ["Docker", "Render", "Vercel"],
     color: "from-orange-500/15 to-orange-600/5",
     border: "border-orange-500/25",
     glow: "group-hover:shadow-[0_0_30px_rgba(251,146,60,0.15)]",
